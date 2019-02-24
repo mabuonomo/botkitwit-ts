@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "sourceMap": false,
+    "outDir": "./src",
+    "baseUrl": "./",
+  },
+  "include": [
+    "src/**/*", "index.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

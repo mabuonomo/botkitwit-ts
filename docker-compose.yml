@@ -1,0 +1,9 @@
+version: "3.2"
+services:
+  app:
+    container_name: botkitwit
+    build:
+      context: ./
+      dockerfile: DockerFile
+    volumes:
+      - .:/home/app/
